@@ -11,7 +11,7 @@ const client = new Client({
 
 // ==== KONFIGURATION - BYT UT DESSA ====
 const BOT_TOKEN = process.env.TOKEN;
-const YOUR_DISCORD_ID = 'DITT_DISCORD_ID_HÄR'; // Ersätt med ditt riktiga Discord ID
+const YOUR_DISCORD_ID = 'hdhacker02'; // Ersätt med ditt riktiga Discord ID
 // ======================================
 
 // Slash commands setup
