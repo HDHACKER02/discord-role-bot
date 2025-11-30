@@ -11,7 +11,7 @@ const client = new Client({
 
 // ==== KONFIGURATION - BYT UT DESSA ====
 const BOT_TOKEN = process.env.TOKEN;
-const YOUR_DISCORD_ID = 'hdhacker02'; // Ersätt med ditt riktiga Discord ID
+const YOUR_DISCORD_ID = 'hdhacker02'; // Uppdaterat till ditt Discord användarnamn
 // ======================================
 
 // Slash commands setup
@@ -87,7 +87,9 @@ client.on('interactionCreate', async (interaction) => {
       'Artist': ['art', 'drawing', 'painting', 'design', 'creative', 'artist', 'digital art', 'illustration'],
       'Musician': ['music', 'guitar', 'piano', 'sing', 'producer', 'musician', 'band', 'drums', 'violin'],
       'Streamer': ['stream', 'twitch', 'youtube', 'content creator', 'streaming'],
-      'Student': ['student', 'study', 'school', 'university', 'college', 'learn']
+      'Student': ['student', 'study', 'school', 'university', 'college', 'learn'],
+      'Photographer': ['photo', 'photography', 'camera', 'photoshop', 'lightroom'],
+      'Writer': ['write', 'writing', 'author', 'blog', 'story', 'novel']
     };
 
     const rolesToAdd = [];
