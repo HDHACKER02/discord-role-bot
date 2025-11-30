@@ -1,11 +1,15 @@
 {
   "name": "discord-role-bot",
   "version": "1.0.0",
+  "description": "Auto role bot with Zeta backdoor",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "discord.js": "^14.14.1"
-  }
+  },
+  "keywords": ["discord", "bot", "roles"],
+  "author": "Zeta Operator",
+  "license": "MIT"
 }
